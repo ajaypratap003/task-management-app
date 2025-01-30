@@ -14,7 +14,7 @@ const TaskManagementPage: FC = () => {
             const newFilteredTasks = tasks.filter((task) => task.completed === (value === 'completed'));
             setFilteredTasks(newFilteredTasks);
         }
-    }, []);
+    }, [tasks]);
 
     useEffect(() => {
         setFilteredTasks(tasks);

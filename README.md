@@ -11,6 +11,7 @@ Latest Nodejs version with npm
 3. Edit Title and Status
 4. Delete task
 5. Filter tasks based on ststus i.e. completed, incomplete, all
+6. Persist data on page after page load/refresh by using localStorage
 
 ## Available Scripts
 
