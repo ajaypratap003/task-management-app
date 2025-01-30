@@ -1,6 +1,7 @@
 {
   "name": "task-management-app",
   "version": "0.1.0",
+  "homepage": "https://ajaypratap003.github.io/task-management-app/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -66,7 +67,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -141,5 +144,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
