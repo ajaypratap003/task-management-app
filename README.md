@@ -13,6 +13,11 @@ Latest Nodejs version with npm
 5. Filter tasks based on ststus i.e. completed, incomplete, all
 6. Persist data on page after page load/refresh by using localStorage
 
+## Setup on local
+1. Install Nodejs if not on system
+2. Install packages  `npm install`
+3. Run application `npm run start`
+
 ## Available Scripts
 
 In the project directory, you can run:
